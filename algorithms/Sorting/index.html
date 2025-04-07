@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sorting</title>
+  </head>
+  <body>
+    <div id="header">
+      <div id="headerLeft">
+        <div class="headerLeftContent">
+          <div class="sliderContainer">
+            <input
+              type="range"
+              min="25"
+              max="300"
+              value="150"
+              class="slider"
+              id="speedSlider"
+            />
+            <div class="speedValue">Speed</div>
+          </div>
+          <div class="sliderContainer">
+            <input
+              type="range"
+              min="10"
+              max="100"
+              value="50"
+              class="slider"
+              id="barSlider"
+            />
+            <div class="sliderValue">Bars: 50</div>
+          </div>
+          <button class="button" id="generateButton">Generate</button>
+        </div>
+        <a href="../../index.html"
+          ><div id="title">Algorithm Visualizer</div></a
+        >
+      </div>
+      <div id="headerRight">
+        <select id="sortType" name="sortType">
+          <option value="insertion" selected>Insertion Sort</option>
+          <option value="bubble">Bubble Sort</option>
+          <option value="selection">Selection Sort</option>
+          <option value="merge">Merge Sort</option>
+          <option value="quick">Quick Sort</option>
+        </select>
+      </div>
+    </div>
+    <div id="container"></div>
+
+    <div id="buttonsDiv">
+      <button type="button" id="sortButton" class="button">Sort</button>
+      <button type="button" id="pauseButton" class="button">Pause</button>
+      <button type="button" id="stopButton" class="button">Stop</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
