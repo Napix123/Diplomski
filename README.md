@@ -57,7 +57,7 @@ this visualizer provides a clear and engaging way to explore them.
   • Save and load custom datasets
 
 
-Video showcasting the project:
+Video showcasing the project:
 
 https://github.com/user-attachments/assets/4c714f5a-7e3e-4add-8f40-a5f422553cd3
 
