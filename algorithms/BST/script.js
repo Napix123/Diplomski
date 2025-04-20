@@ -1,5 +1,3 @@
-// prerequisite: javascript, d3.js
-
 // structure of node
 // {
 //     nodeId: number <--- unique id for each node. it will be also used as id for html element of node.
